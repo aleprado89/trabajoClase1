@@ -14,7 +14,6 @@
         <asp:HyperLink ID="registroHL" runat="server" NavigateUrl="~/registrarNoticias.aspx">Ir a pagina de registro de noticias.</asp:HyperLink>
         <br />
         <br />
-        <asp:HyperLink ID="listadoHL" runat="server" NavigateUrl="~/listadoRegistrados.aspx">Ir a listado de registrados.</asp:HyperLink>
     </form>
 </body>
 </html>

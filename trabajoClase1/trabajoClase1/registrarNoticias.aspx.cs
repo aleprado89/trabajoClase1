@@ -21,21 +21,7 @@ namespace trabajoClase1
         {
 
         }
-
-        void registrarArchivo(string nombre, string correo, string seleccion)
-        {
-            StreamWriter archivo = new StreamWriter(this.Server.MapPath(".") + "/registrados.txt", true);
-            archivo.WriteLine("Nombre: " + nombre);
-            archivo.WriteLine("<br>");
-            archivo.WriteLine("Correo: " + correo);
-            archivo.WriteLine("<br>");
-            archivo.WriteLine(seleccion);
-            archivo.WriteLine("<br>");
-            archivo.WriteLine("<br>");
-            archivo.Close();
-        }
-
-
+        
         /*EVENTOS*/
 
         //Verificar Persona
@@ -83,8 +69,6 @@ namespace trabajoClase1
                 else
                 {
                     resultadoLB.Text = nombre + " - " + correo + " - " + seleccion;
-
-                    registrarArchivo(nombre, correo, seleccion);
                 }
             }
             else

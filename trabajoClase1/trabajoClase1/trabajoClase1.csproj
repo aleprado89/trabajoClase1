@@ -76,7 +76,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="inicio1.aspx" />
-    <Content Include="listadoRegistrados.aspx" />
     <Content Include="registrarNoticias.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -87,13 +86,6 @@
     </Compile>
     <Compile Include="inicio1.aspx.designer.cs">
       <DependentUpon>inicio1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="listadoRegistrados.aspx.cs">
-      <DependentUpon>listadoRegistrados.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="listadoRegistrados.aspx.designer.cs">
-      <DependentUpon>listadoRegistrados.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="registrarNoticias.aspx.cs">
